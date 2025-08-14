@@ -21,3 +21,47 @@
 [2025-08-14 17:03:17,727: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-08-14 17:47:31,043: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-14 17:47:31,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-14 17:47:31,054: INFO: common: created directory at: artifacts]
+[2025-08-14 17:47:31,056: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-14 17:47:45,994: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-08-14 18:03:12,931: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-14 18:03:12,945: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-14 18:03:12,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-14 18:03:12,962: INFO: common: created directory at: artifacts]
+[2025-08-14 18:03:12,963: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-14 18:03:12,964: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19PEaJ6-AP8I4m3WOumNLZwWSAvuJJ-aw/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-14 18:03:28,324: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19PEaJ6-AP8I4m3WOumNLZwWSAvuJJ-aw/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-14 18:03:29,337: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-14 18:03:29,337: INFO: main: *******************]
+[2025-08-14 18:03:29,342: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-14 18:03:29,343: ERROR: main: name 'PrepareBaseModelTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\vscode\Kidney-Disease-Classification-MLflow-DVC\main.py", line 20, in <module>
+    prepare_base_model = PrepareBaseModelTrainingPipeline()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'PrepareBaseModelTrainingPipeline' is not defined
+[2025-08-14 18:05:33,789: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-14 18:05:33,793: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-14 18:05:33,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-14 18:05:33,802: INFO: common: created directory at: artifacts]
+[2025-08-14 18:05:33,803: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-14 18:05:33,804: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/19PEaJ6-AP8I4m3WOumNLZwWSAvuJJ-aw/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-14 18:05:48,619: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/19PEaJ6-AP8I4m3WOumNLZwWSAvuJJ-aw/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-14 18:05:49,636: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-14 18:05:49,636: INFO: main: *******************]
+[2025-08-14 18:05:49,639: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-14 18:05:49,645: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-14 18:05:49,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-14 18:05:49,650: INFO: common: created directory at: artifacts]
+[2025-08-14 18:05:49,651: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-14 18:05:50,550: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-14 18:05:50,759: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-14 18:05:51,089: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
